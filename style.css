@@ -1,0 +1,9 @@
+table
+{
+    border: 1px outset black;
+}
+
+table > * > tr > *
+{
+    border: 1px outset black;
+}
