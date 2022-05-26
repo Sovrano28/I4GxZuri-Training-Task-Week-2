@@ -1,9 +1,27 @@
+h1, h2, p
+{
+    text-align: center;
+}
+
+#table
+{
+    display: flex;
+    justify-content: center;
+}
+
 table
 {
-    border: 1px outset black;
+    border: 1px outset rgb(173, 99, 49);
+    background-color: aqua;
+    
 }
 
 table > * > tr > *
 {
-    border: 1px outset black;
+    border: 1px outset rgb(218, 185, 1);
+}
+
+td
+{
+    text-align: center;
 }
